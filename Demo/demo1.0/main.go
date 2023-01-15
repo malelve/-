@@ -1,20 +1,3 @@
-# 周报 : 1.9 — 1.15 
-
-
-
-## 本周完成：
-
-- 更改leetcode刷题语言为Go，训练并熟悉go语法
-- 学习并掌握go并发控制的三种方法：
-  - sync.WaitGroup
-  - channel（有缓存、无缓存）
-  - ConText
-- go语言在net服务中的应用
-  - net的部分包的学习
-  - go在http/https、tcp/udp中的应用
-- 尝试编写一个简单的go服务端
-
-```go
 package main
 
 import (
@@ -39,28 +22,3 @@ func loginHandler(w http.ResponseWriter, req *http.Request) {
 	userName := req.FormValue("username")
 	fmt.Fprintf(w, "Hello %s", userName)
 }
-
-```
-
-
-
-## 本周未完成：
-
-
-
-
-
-## 解决方案：
-
-
-
-
-
-## 待做事项：
-
-
-
-
-
-## 进度框架：
-
